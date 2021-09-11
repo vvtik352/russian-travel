@@ -1,0 +1,28 @@
+.place {
+    margin: 0 ;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+    grid-gap: 48px 40px;
+    overflow: hidden;
+}
+
+
+
+@media (max-width : 1024px) {
+    .place {
+        grid-gap: 48px 32px;
+    }
+}
+
+@media (max-width : 768px) {
+    .place {
+        grid-gap: 48px 28px;
+    }
+}
+
+@media (max-width : 700px) {
+    .place {
+        grid-template-columns: 1fr;
+    }
+}
