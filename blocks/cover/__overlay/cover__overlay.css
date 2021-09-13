@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 740px;
-    background-image: url("../../../images/cover_overlay.png");
+    background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
     transition: opacity 0.3s;
 }
