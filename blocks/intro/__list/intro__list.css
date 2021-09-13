@@ -1,7 +1,6 @@
 .intro__list {
-    padding: 0;
-    text-decoration: none;
-    list-style: none; 
-
-    max-width: 690px;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  max-width: 690px;
 }
