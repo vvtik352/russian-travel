@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-decoration: none;
+  justify-content: center;
   color: white;
   background-repeat: no-repeat;
   background-position: center;
