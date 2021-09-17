@@ -3,22 +3,23 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
-  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .footer {
     max-width: 920px;
+    padding: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
+    padding: 24px;
   }
 }
 @media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
-    
+    margin-top: 64px;
   }
 }

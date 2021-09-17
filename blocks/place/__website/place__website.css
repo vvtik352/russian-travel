@@ -4,3 +4,9 @@
   justify-content: flex-end;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    padding: 0px 16px;
+  }
+}
