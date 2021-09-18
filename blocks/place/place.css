@@ -3,20 +3,19 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
-  grid-gap: 48px 40px;
-  align-items: center;
-  overflow: hidden;
+  grid-gap: 40px;
+  align-items: stretch;
 }
 
 @media (max-width: 1024px) {
   .place {
-    grid-gap: 48px 32px;
+    grid-gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    grid-gap: 48px 28px;
+    grid-gap: 32px;
   }
 }
 

@@ -1,6 +1,5 @@
 .footer__item {
-  font-size: 14px;
-  line-height: 16px;
+
   text-decoration: none;
   margin: 0;
   padding-right: 18px;
@@ -9,16 +8,12 @@
 @media screen and (max-width: 768px) {
   .footer__item {
     padding-bottom: 24px;
-    padding-right: 18px;
-    font-size: 12px;
-    line-height: 14px;
+
   }
 }
 @media screen and (max-width: 425px) {
   .footer__item {
-    padding-bottom: 24px;
-    padding-right: 18px;
-    font-size: 24px;
-    line-height: 24px;
+    margin-top: 32px;
+
   }
 }

@@ -1,21 +1,18 @@
 .footer__navigation {
+
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 @media screen and (max-width: 768px) {
   .footer__navigation {
     text-align: left;
-    padding-top: 16px;
   }
 }
-
 @media screen and (max-width: 425px) {
   .footer__navigation {
     flex-direction: column;
-    text-align: left;
-    padding-top: 16px;
+    padding-top: 0;
   }
 }

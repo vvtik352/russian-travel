@@ -2,10 +2,10 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  max-width: 690px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  margin: 0;
 }

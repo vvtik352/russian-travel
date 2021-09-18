@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
+  margin: auto;
 }
 @media screen and (max-width: 1024px) {
   .footer {
@@ -15,6 +16,7 @@
   .footer {
     max-width: 720px;
     padding: 24px;
+    margin-top: 32px;
   }
 }
 @media screen and (max-width: 425px) {

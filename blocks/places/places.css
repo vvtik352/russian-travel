@@ -1,9 +1,6 @@
 .places {
   margin: 0 auto;
 
-  padding-right: 148px;
-  padding-left: 148px;
-  margin-top: 92px;
   max-width: 984px;
 }
 
@@ -24,5 +21,6 @@
 @media (max-width: 425px) {
   .places {
     padding: 0;
+    margin: 0;
   }
 }
