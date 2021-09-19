@@ -1,19 +1,19 @@
 .footer__item {
-
   text-decoration: none;
   margin: 0;
   padding-right: 18px;
 }
 
+.footer__item:last-child {
+  padding-bottom: 0;
+}
 @media screen and (max-width: 768px) {
   .footer__item {
     padding-bottom: 24px;
-
   }
 }
 @media screen and (max-width: 425px) {
   .footer__item {
-    margin-top: 32px;
-
+    padding-bottom: 32px;
   }
 }
